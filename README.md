@@ -12,6 +12,6 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 
 If you have any issue please feel free to contact me at cs_xcy@126.com
 
-天池ID：BruceQD & 人畜无害小白兔 & **小雨姑娘**
+天池ID： **小雨姑娘**
 
 

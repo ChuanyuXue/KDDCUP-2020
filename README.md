@@ -26,7 +26,7 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 
 
 ## 文件结构
-数据可以在比赛官方网站中下载，按照以下路径放置数据文件。
+数据可以在比赛官方网站中下载，按照以下路径创建文件夹以及放置数据。
 
     │  feature_list.csv                               # List the features we used in ranking process
     │  main.sh                                        # Run this script to start the whole process

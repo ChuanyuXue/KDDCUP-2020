@@ -1,0 +1,100 @@
+©¦  feature_list.csv
+©¦  main.sh
+©¦  project_structure.txt
+©¦  
+©À©¤code
+©¦  ©¦  __init__.py
+©¦  ©¦  
+©¦  ©À©¤1_DataPreprocessing
+©¦  ©¦      01_Generate_Offline_Dataset_origin.py
+©¦  ©¦      02_Generate_Model1_Dataset_origin.py
+©¦  ©¦      03_Create_Model1_Answer.py
+©¦  ©¦      03_Create_Offline_Answer.py
+©¦  ©¦      04_TransformDateTime-Copy1.py
+©¦  ©¦      05_Generate_img_txt_vec.py
+©¦  ©¦      ipynb_file.zip
+©¦  ©¦      
+©¦  ©À©¤2_Similarity
+©¦  ©¦      01_itemCF_Mundane_model1.py
+©¦  ©¦      01_itemCF_Mundane_offline.py
+©¦  ©¦      01_itemCF_Mundane_online.py
+©¦  ©¦      deep_node_model.py
+©¦  ©¦      ipynb_file.zip
+©¦  ©¦      RA_Wu_model1.py
+©¦  ©¦      RA_Wu_offline.py
+©¦  ©¦      RA_Wu_online.py
+©¦  ©¦      
+©¦  ©À©¤3_NN
+©¦  ©¦      config.py
+©¦  ©¦      ItemFeat2.py
+©¦  ©¦      model2.py
+©¦  ©¦      modules.py
+©¦  ©¦      Readme
+©¦  ©¦      sampler2.py
+©¦  ©¦      sas_rec.py
+©¦  ©¦      util.py
+©¦  ©¦      
+©¦  ©À©¤3_Recall
+©¦  ©¦      01_Recall-Wu-model1.py
+©¦  ©¦      01_Recall-Wu-offline.py
+©¦  ©¦      01_Recall-Wu-online.py
+©¦  ©¦      ipynb_file.zip
+©¦  ©¦      
+©¦  ©À©¤4_RankFeature
+©¦  ©¦      01_sim_feature_model1.py
+©¦  ©¦      01_sim_feature_model1_RA_AA.py
+©¦  ©¦      01_sim_feature_offline.py
+©¦  ©¦      01_sim_feature_offline_RA_AA.py
+©¦  ©¦      01_sim_feature_online.py
+©¦  ©¦      01_sim_feature_online_RA_AA.py
+©¦  ©¦      02_itemtime_feature_model1.py
+©¦  ©¦      02_itemtime_feature_offline.py
+©¦  ©¦      02_itemtime_feature_online.py
+©¦  ©¦      03_count_feature_model1.py
+©¦  ©¦      03_count_feature_offline.py
+©¦  ©¦      03_count_feature_online.py
+©¦  ©¦      04_NN_feature_model1.py
+©¦  ©¦      04_NN_feature_offline.py
+©¦  ©¦      04_NN_feature_online.csv.py
+©¦  ©¦      05_txt_feature_model1.py
+©¦  ©¦      05_txt_feature_offline.py
+©¦  ©¦      05_txt_feature_online.py
+©¦  ©¦      06_interactive_model1.py
+©¦  ©¦      06_interactive_offline.py
+©¦  ©¦      06_interactive_online.py
+©¦  ©¦      07_count_detail_model1.py
+©¦  ©¦      07_count_detail_offline.py
+©¦  ©¦      07_count_detail_online.py
+©¦  ©¦      08_user_feature_model1.py
+©¦  ©¦      08_user_feature_offline.py
+©¦  ©¦      08_user_feature_online.py
+©¦  ©¦      09_partial_sim_feature_model1.py
+©¦  ©¦      09_partial_sim_feature_offline.py
+©¦  ©¦      09_partial_sim_feature_online.py
+©¦  ©¦      10_emergency_feature_model1.py
+©¦  ©¦      10_emergency_feature_offline.py
+©¦  ©¦      10_emergency_feature_online.py
+©¦  ©¦      4_RankFeature.zip
+©¦  ©¦      
+©¦  ©¸©¤5_Modeling
+©¦          ipynb_file.zip
+©¦          Model_Offline.py
+©¦          Model_Online.py
+©¦          
+©À©¤data
+©¦  ©À©¤underexpose_test
+©¦  ©¸©¤underexpose_train
+©À©¤prediction_result
+©¸©¤user_data
+    ©À©¤dataset
+    ©¦  ©À©¤new_recall
+    ©¦  ©À©¤new_similarity
+    ©¦  ©¸©¤nn
+    ©À©¤model_1
+    ©¦  ©À©¤new_recall
+    ©¦  ©À©¤new_similarity
+    ©¦  ©¸©¤nn
+    ©¸©¤offline
+        ©À©¤new_recall
+        ©À©¤new_similarity
+        ©¸©¤nn

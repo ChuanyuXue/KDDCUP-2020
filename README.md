@@ -22,15 +22,7 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 6. 将召回列表中真正发生点击的用户-商品对视为正样，按1:5的正负比例从召回列表中随机选取负样，生成6个数据集。进而，采用catboost和lightgbm
 建模，为点击量少的商品赋予更大的权重，采用算数平均值、几何平均值与调和平均值做模型融合，并依据商品点击量进行后处理（“5_Modeling”）。
 
-## Python库环境依赖
-    lightgbm==2.2.1
-    tensorflow==1.13.1
-    joblib==0.15.1
-    gensim==3.4.0
-    pandas==0.25.1
-    numpy==1.16.3
-    networkx==2.4
-    tqdm==4.46.0
+最终我们的方案取得了Track-A 1th，Track-B 6th的成绩。
 
 
 ## 文件结构
@@ -110,7 +102,16 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
             ├─new_recall
             ├─new_similarity
             └─nn
-
+        
+## Python库环境依赖
+    lightgbm==2.2.1
+    tensorflow==1.13.1
+    joblib==0.15.1
+    gensim==3.4.0
+    pandas==0.25.1
+    numpy==1.16.3
+    networkx==2.4
+    tqdm==4.46.0
 
 ## 声明
 本项目库专门存放KDD2020挑战赛的相关代码文件，所有代码仅供各位同学学习参考使用。如有任何对代码的问题请邮箱联系：cs_xcy@126.com

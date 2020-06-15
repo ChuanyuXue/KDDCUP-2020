@@ -35,7 +35,7 @@ def get_feat(now_phase=3, base_path=None):
     item_df = all_click.groupby('item_id')['time'].count().reset_index()
     item_df.columns = ['item_id', 'degree']
     
-    feat = pd.read_csv(os.path.join(train_path, 'underexpose_item_feat.csv'), header=None)
+    feat = pd.read_csv('./data/underexpose_train/underexpose_item_feat.csv', header=None)
     feat[1] = feat[1].apply(lambda x:x[1:]).astype(float)
     feat[128] = feat[128].apply(lambda x:x[:-1]).astype(float)
     feat[129] = feat[129].apply(lambda x:x[1:]).astype(float)

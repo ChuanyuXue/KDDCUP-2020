@@ -3,7 +3,24 @@
 
 This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern E-Commerce Platform: Debiasing Challenge.
 
+赛题链接：https://tianchi.aliyun.com/competition/entrance/231785/introduction
+
 ## 解决方案
+1. 如下文件结构所示，我们先对数据做预处理“1_DataPreprocessing”，将倒数第二次点击当答案生成线下训练集（存于user_data/model_1），将倒数第一次
+点击当答案生成线下验证集（存于user_data/offline），线上待预测数据存于user_data/dataset。我们依据点击数的周期变换，将time转换为了
+日期（04_TransformDateTime-Copy1.py），还生成了文本相似性、图像相似性文件（05_Generate_img_txt_vec.py）。
+
+2. 依次选用线下训练集、线下验证集和线上待预测数据中的点击日志训练deepwalk、node2vec模型（“deep_node_model.py”）。进而，融合文本相似性
+、deepwalk、node2vec修改了ItemCF算法，计算并存储商品相似性（“01_itemCF_Mundane_model1.py”等）。此外，基于召回的商品相似性构建商品相似性网络，
+计算并存储RA、AA、CN、HDI、HPI、LHN1等二阶相似性（“RA_Wu_model1.py”等）。
+
+3. 实现Self-Attentive Sequnetial Model，预测召回的用户-商品对的发生点击的概率（“3_NN”）。
+
+4. 基于存储的商品相似性为每个待预测用户召回1000候选商品（“3_Recall”）。
+5. 为召回列表中的商品-用户对生成排序特征（“4_RankFeature”）。
+
+6. 将召回列表中真正发生点击的用户-商品对视为正样，按1:5的正负比例从召回列表中随机选取负样，生成6个数据集。进而，采用catboost和lightgbm
+建模，为点击量少的商品赋予更大的权重，采用算数平均值、几何平均值与调和平均值做模型融合，并依据商品点击量进行后处理（“5_Modeling”）。
 
 ## Python库环境依赖
     lightgbm==2.2.1
@@ -17,6 +34,8 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 
 
 ## 文件结构
+数据可以在比赛官方网站中下载，按照以下路径放置数据文件。
+
     │  feature_list.csv                               # List the features we used in ranking process
     │  main.sh                                        # Run this script to start the whole process
     │  project_structure.txt                          # The tree structure of this project

@@ -3,7 +3,18 @@
 
 This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern E-Commerce Platform: Debiasing Challenge.
 
-## 解决方案blog
+## 解决方案
+
+## Python库环境依赖
+    lightgbm==2.2.1
+    tensorflow==1.13.1
+    joblib==0.15.1
+    gensim==3.4.0
+    pandas==0.25.1
+    numpy==1.16.3
+    networkx==2.4
+    tqdm==4.46.0
+
 
 ## 文件结构
     │  feature_list.csv                               # List the features we used in ranking process

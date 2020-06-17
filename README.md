@@ -22,7 +22,7 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 6. 将召回列表中真正发生点击的用户-商品对视为正样，按1:5的正负比例从召回列表中随机选取负样，生成6个数据集。进而，采用catboost和lightgbm
 建模，为点击量少的商品赋予更大的权重，采用算数平均值、几何平均值与调和平均值做模型融合，并依据商品点击量进行后处理（“5_Modeling”）。
 
-最终我们的方案取得了Track-A 1th，Track-B 6th的成绩。
+**最终我们的方案取得了Track-A 1th，Track-B 6th的成绩。**
 
 
 ## 文件结构
@@ -118,6 +118,6 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 
 If you have any issue please feel free to contact me at cs_xcy@126.com
 
-天池ID： **小雨姑娘**
+天池ID & 知乎ID： **小雨姑娘**
 
 

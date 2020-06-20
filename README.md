@@ -116,8 +116,19 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 ## 声明
 本项目库专门存放KDD2020挑战赛的相关代码文件，所有代码仅供各位同学学习参考使用。如有任何对代码的问题请邮箱联系：cs_xcy@126.com
 
+代码流程解析下一步会在https://zhuanlan.zhihu.com/mlbasic 开源，敬请关注。
+
 If you have any issue please feel free to contact me at cs_xcy@126.com
 
-天池ID & 知乎ID： **小雨姑娘**
+天池ID：GrandRookie，
+BruceQD，
+七里z，
+青禹小生，
+蓝绿黄红，
+LSH123，
+XMNG，
+wenwen_123，
+**小雨姑娘**，
+wbbhcb
 
 

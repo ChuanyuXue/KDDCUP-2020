@@ -5,6 +5,8 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 
 赛题链接：https://tianchi.aliyun.com/competition/entrance/231785/introduction
 
+解决方案blog: https://zhuanlan.zhihu.com/p/149424540
+
 ## 解决方案
 1. 如下文件结构所示，我们先对数据做预处理“1_DataPreprocessing”，将倒数第二次点击当答案生成线下训练集（存于user_data/model_1），将倒数第一次
 点击当答案生成线下验证集（存于user_data/offline），线上待预测数据存于user_data/dataset。我们依据点击数的周期变换，将time转换为了
@@ -113,10 +115,8 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
     networkx==2.4
     tqdm==4.46.0
 
-## 声明
-本项目库专门存放KDD2020挑战赛的相关代码文件，所有代码仅供各位同学学习参考使用。如有任何对代码的问题请邮箱联系：cs_xcy@126.com
-
-代码流程解析下一步会在https://zhuanlan.zhihu.com/mlbasic 开源，敬请关注。
+## 声明/
+本项目库专门存放KDD2020挑战赛的相关代码文件，所有代码仅供各位同学学习参考使用。如有任何对代码的问题请邮箱联系：cs_xcy@126.com/chuanyu.xue@uconn.edu
 
 If you have any issue please feel free to contact me at cs_xcy@126.com
 
@@ -130,5 +130,3 @@ XMNG，
 wenwen_123，
 **小雨姑娘**，
 wbbhcb
-
-

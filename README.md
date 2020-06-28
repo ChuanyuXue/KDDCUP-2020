@@ -7,6 +7,12 @@ This repository contains the 6th solution on KDD Cup 2020 Challenges for Modern 
 
 解决方案blog: https://zhuanlan.zhihu.com/p/149424540
 
+数据集下载链接：
+underexpose_train.zip	271.62MB	http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231785/underexpose_train.zip
+underexpose_test.zip	3.27MB	   http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231785/underexpose_test.zip
+
+
+
 ## 解决方案
 1. 如下文件结构所示，我们先对数据做预处理“1_DataPreprocessing”，将倒数第二次点击当答案生成线下训练集（存于user_data/model_1），将倒数第一次
 点击当答案生成线下验证集（存于user_data/offline），线上待预测数据存于user_data/dataset。我们依据点击数的周期变换，将time转换为了

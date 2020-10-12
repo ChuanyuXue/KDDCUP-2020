@@ -144,7 +144,7 @@ underexpose_test.zip	3.27MB	   http://tianchi-competition.oss-cn-hangzhou.aliyun
     tqdm==4.46.0
 
 ## 声明/
-本项目库专门存放KDD2020挑战赛的相关代码文件，所有代码仅供各位同学学习参考使用。如有任何对代码的问题请邮箱联系：cs_xcy@126.com/chuanyu.xue@uconn.edu
+本项目库专门存放KDD2020挑战赛的相关代码文件，所有代码仅供各位同学学习参考使用。如有任何对代码的问题请邮箱联系：cs_xcy@126.com
 
 If you have any issue please feel free to contact me at cs_xcy@126.com
 

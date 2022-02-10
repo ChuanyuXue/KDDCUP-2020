@@ -3,6 +3,6 @@ tensorflow==2.5.1
 joblib==0.15.1
 gensim==3.4.0
 pandas==0.25.1
-numpy==1.16.3
+numpy==1.21.0
 networkx==2.4
 tqdm==4.46.0

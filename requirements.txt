@@ -1,6 +1,6 @@
 lightgbm==2.2.1
 tensorflow==2.5.1
-joblib==0.15.1
+joblib==1.2.0
 gensim==3.4.0
 pandas==0.25.1
 numpy==1.16.3
